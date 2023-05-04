@@ -36,6 +36,7 @@ body{
 	display: grid;
 	padding: 2rem;
 	gap: 2rem;
+	background-color: var(--accent-color);
 }
 .card-title{
 	color: var(--clr-very-light-gray);
@@ -66,7 +67,7 @@ body{
 	overflow: hidden;
 	max-width: 800px;
 	width: 90%;
-	margin: 0 auto;
+	margin: 2rem auto;
 }
 @media(min-width:600px){
 	.card-container{
@@ -76,15 +77,6 @@ body{
 		margin-bottom: 3rem;
 	}
 }
-.sedans{
-	--accent-color: var(--clr-bright-orange);
-	background-color: var(--accent-color);
-}
-.suvs{
-	--accent-color: var(--clr-sark-cyan);
-	background-color: var(--accent-color);
-}
-.luxury{
-	--accent-color: var(--clr-very-dark-cyan);
-	background-color: var(--accent-color);
-}
+.sedans{--accent-color: var(--clr-bright-orange);}
+.suvs{--accent-color: var(--clr-sark-cyan);}
+.luxury{--accent-color: var(--clr-very-dark-cyan);}
